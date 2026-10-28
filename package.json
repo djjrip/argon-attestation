@@ -1,0 +1,29 @@
+{
+  "name": "argon-attestation",
+  "version": "1.0.0",
+  "description": "Deterministic AI agent execution attestation core and ephemeral paywall engine.",
+  "main": "dist/core.js",
+  "types": "dist/core.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/verify.test.js"
+  },
+  "keywords": [
+    "argon",
+    "attestation",
+    "deterministic-agent",
+    "mcp",
+    "sha256",
+    "audit-trail"
+  ],
+  "author": "Jayson Quindao <jquindao1@icloud.com> (https://github.com/djjrip)",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.22.4",
+    "stripe": "^14.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  }
+}
